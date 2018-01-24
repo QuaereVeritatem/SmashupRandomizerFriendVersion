@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="space age.ttf">
+            <string>SpaceAge</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--HomePageMenuViewController-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="HomePageMenuViewController" customClass="HomePageMenuViewController" customModule="SmashUpRandomizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lightcoloredBG" translatesAutoresizingMaskIntoConstraints="NO" id="sAR-PP-ACl">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Choose People Playing" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jbg-Ic-XD2">
+                                <rect key="frame" x="37" y="70" width="300" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="59O-If-83S"/>
+                                    <constraint firstAttribute="height" constant="30" id="sIy-VT-3YX"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emma" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0qb-Jk-Tno">
+                                <rect key="frame" x="60" y="150" width="65" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="65" id="Vu4-RB-8JL"/>
+                                    <constraint firstAttribute="height" constant="17" id="WGa-e9-hKE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jacob" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qb8-Fe-rEz">
+                                <rect key="frame" x="60" y="180" width="79" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="79" id="2fM-sV-mbW"/>
+                                    <constraint firstAttribute="height" constant="17" id="jA6-dH-6pk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alexander" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xeq-Np-0fr">
+                                <rect key="frame" x="60" y="210" width="81" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="7gX-na-q8i"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Craig" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UA6-K9-gEu">
+                                <rect key="frame" x="60" y="240" width="68" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="SYy-dD-CeT"/>
+                                    <constraint firstAttribute="width" constant="68" id="oB5-Xh-4pD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Robert" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pIy-V4-I74">
+                                <rect key="frame" x="60" y="270" width="97" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="MmG-Sh-wfo"/>
+                                    <constraint firstAttribute="width" constant="97" id="w0X-5I-ISp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Steven" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="51b-iZ-90I">
+                                <rect key="frame" x="60" y="300" width="97" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="97" id="TcZ-gM-E92"/>
+                                    <constraint firstAttribute="height" constant="17" id="qZH-G4-UpQ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jeannie" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fhh-gb-FgX">
+                                <rect key="frame" x="60" y="330" width="99" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="ugr-2R-9wl"/>
+                                    <constraint firstAttribute="width" constant="99" id="yfc-Ds-gtU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="08M-00-8P1">
+                                <rect key="frame" x="81" y="397" width="213" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="213" id="4Ho-Vw-glC"/>
+                                    <constraint firstAttribute="height" constant="44" id="S9e-4V-k4Y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="18"/>
+                                <state key="normal" title="RANDOMIZE" backgroundImage="RandomizeRectangle">
+                                    <color key="titleColor" red="0.36470588235294116" green="0.37254901960784315" blue="0.53725490196078429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="randomizeButton:forEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kd8-ug-Lb6"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Automatically Assign Factions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="syq-CV-gfR">
+                                <rect key="frame" x="50" y="483" width="313" height="17"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="17" id="9rl-uv-9Cn"/>
+                                    <constraint firstAttribute="width" constant="313" id="CSp-If-FQg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Repeat Factions today" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jRG-h8-2hf">
+                                <rect key="frame" x="50" y="522" width="266" height="13"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="266" id="7Lk-De-Zhz"/>
+                                    <constraint firstAttribute="height" constant="13" id="wS7-np-F6r"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kNi-m3-fqd">
+                                <rect key="frame" x="20" y="238" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="RZj-vH-ccK"/>
+                                    <constraint firstAttribute="height" constant="20" id="uIx-RI-cDa"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Rectangle 3"/>
+                                <connections>
+                                    <action selector="craigSelected:forEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="b9p-dh-VP1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wfo-VH-HIh">
+                                <rect key="frame" x="20" y="178" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="Ab4-2t-7mv"/>
+                                    <constraint firstAttribute="height" constant="20" id="wwU-tv-0DO"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Rectangle 3"/>
+                                <connections>
+                                    <action selector="jacobSelected:forEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zg8-3e-so1"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6uN-uL-fUM">
+                                <rect key="frame" x="20" y="148" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="ahw-YO-98N"/>
+                                    <constraint firstAttribute="width" constant="20" id="tBp-Pb-ya7"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Rectangle 3"/>
+                                <connections>
+                                    <action selector="emmaSelected:forEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="INL-Ve-yte"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z8x-Hu-tmF">
+                                <rect key="frame" x="20" y="208" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="eWK-y1-QGJ"/>
+                                    <constraint firstAttribute="height" constant="20" id="llx-XA-Qx5"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Rectangle 3"/>
+                                <connections>
+                                    <action selector="alexanderSelected:forEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zvu-D7-wzH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EAT-o5-RqJ">
+                                <rect key="frame" x="20" y="328" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="Lhu-Gh-bwr"/>
+                                    <constraint firstAttribute="width" constant="20" id="dJ6-ae-agj"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Rectangle 3"/>
+                                <connections>
+                                    <action selector="jeannieSelected:forEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zdj-qW-Tbf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mOp-wf-DSz">
+                                <rect key="frame" x="20" y="268" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="v1I-8c-TDl"/>
+                                    <constraint firstAttribute="width" constant="20" id="vM0-7D-mFr"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Rectangle 3"/>
+                                <connections>
+                                    <action selector="robertSelected:forEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p46-O2-asN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UVe-DV-dUD">
+                                <rect key="frame" x="20" y="298" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="6lx-Rm-POr"/>
+                                    <constraint firstAttribute="height" constant="20" id="jB9-nU-Zhn"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Rectangle 3"/>
+                                <connections>
+                                    <action selector="stevenSelected:forEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PVR-b2-Kdf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jLH-rc-el0">
+                                <rect key="frame" x="20" y="481" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="7cj-gf-ZmF"/>
+                                    <constraint firstAttribute="height" constant="20" id="HXz-CY-6G6"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Rectangle 3"/>
+                                <connections>
+                                    <action selector="assignFactions2Players:forEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ip1-og-0SM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYM-Yg-qWB">
+                                <rect key="frame" x="20" y="520" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="P2B-OL-70j"/>
+                                    <constraint firstAttribute="width" constant="20" id="iRQ-dg-hgz"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Rectangle 3"/>
+                                <connections>
+                                    <action selector="noRepeatFactionSelected:forEvent:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Acd-b2-4mH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Qb8-Fe-rEz" firstAttribute="leading" secondItem="Wfo-VH-HIh" secondAttribute="trailing" constant="20" id="0xr-xP-BLB"/>
+                            <constraint firstItem="syq-CV-gfR" firstAttribute="top" secondItem="08M-00-8P1" secondAttribute="bottom" constant="42" id="2FW-xe-uDm"/>
+                            <constraint firstItem="syq-CV-gfR" firstAttribute="leading" secondItem="jLH-rc-el0" secondAttribute="trailing" constant="10" id="2W2-Vs-FP8"/>
+                            <constraint firstItem="zYM-Yg-qWB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="3Zp-lq-ioh"/>
+                            <constraint firstItem="xeq-Np-0fr" firstAttribute="top" secondItem="Qb8-Fe-rEz" secondAttribute="bottom" constant="13" id="51R-aH-G4s"/>
+                            <constraint firstItem="Wfo-VH-HIh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="6Vh-9R-xCq"/>
+                            <constraint firstItem="kNi-m3-fqd" firstAttribute="top" secondItem="z8x-Hu-tmF" secondAttribute="bottom" constant="10" id="8Uv-VP-tJD"/>
+                            <constraint firstItem="fhh-gb-FgX" firstAttribute="leading" secondItem="EAT-o5-RqJ" secondAttribute="trailing" constant="20" id="8a0-FO-v57"/>
+                            <constraint firstItem="sAR-PP-ACl" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="98K-ca-dxM"/>
+                            <constraint firstItem="51b-iZ-90I" firstAttribute="leading" secondItem="UVe-DV-dUD" secondAttribute="trailing" constant="20" id="9Bt-tK-oFg"/>
+                            <constraint firstItem="UA6-K9-gEu" firstAttribute="leading" secondItem="kNi-m3-fqd" secondAttribute="trailing" constant="20" id="Bcp-HN-xKn"/>
+                            <constraint firstItem="z8x-Hu-tmF" firstAttribute="top" secondItem="Wfo-VH-HIh" secondAttribute="bottom" constant="10" id="Biw-On-P1X"/>
+                            <constraint firstItem="jbg-Ic-XD2" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="Eqh-pR-fVy"/>
+                            <constraint firstItem="jRG-h8-2hf" firstAttribute="top" secondItem="syq-CV-gfR" secondAttribute="bottom" constant="22" id="GBi-6E-mhu"/>
+                            <constraint firstItem="jRG-h8-2hf" firstAttribute="leading" secondItem="zYM-Yg-qWB" secondAttribute="trailing" constant="10" id="Ik1-se-vtV"/>
+                            <constraint firstItem="6uN-uL-fUM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="J18-qI-tTB"/>
+                            <constraint firstAttribute="trailing" secondItem="sAR-PP-ACl" secondAttribute="trailing" id="MHu-ub-K6H"/>
+                            <constraint firstItem="UVe-DV-dUD" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="OhM-zx-3ab"/>
+                            <constraint firstItem="0qb-Jk-Tno" firstAttribute="top" secondItem="jbg-Ic-XD2" secondAttribute="bottom" constant="50" id="QGK-Cu-Koh"/>
+                            <constraint firstItem="jLH-rc-el0" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="QPn-5U-6Hf"/>
+                            <constraint firstItem="jbg-Ic-XD2" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="QpH-NJ-hlu"/>
+                            <constraint firstItem="EAT-o5-RqJ" firstAttribute="top" secondItem="UVe-DV-dUD" secondAttribute="bottom" constant="10" id="Rzc-Uy-PME"/>
+                            <constraint firstItem="z8x-Hu-tmF" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="SX8-Je-iVG"/>
+                            <constraint firstItem="08M-00-8P1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Tyc-Hp-erH"/>
+                            <constraint firstItem="UA6-K9-gEu" firstAttribute="top" secondItem="xeq-Np-0fr" secondAttribute="bottom" constant="13" id="UFz-zy-Tly"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="sAR-PP-ACl" secondAttribute="bottom" id="VGP-hg-pcZ"/>
+                            <constraint firstItem="fhh-gb-FgX" firstAttribute="top" secondItem="51b-iZ-90I" secondAttribute="bottom" constant="13" id="aPJ-51-0XE"/>
+                            <constraint firstItem="Wfo-VH-HIh" firstAttribute="top" secondItem="6uN-uL-fUM" secondAttribute="bottom" constant="10" id="ciT-h1-eH8"/>
+                            <constraint firstItem="51b-iZ-90I" firstAttribute="top" secondItem="pIy-V4-I74" secondAttribute="bottom" constant="13" id="dPH-Hy-oom"/>
+                            <constraint firstItem="mOp-wf-DSz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="gGV-26-E1x"/>
+                            <constraint firstItem="jLH-rc-el0" firstAttribute="top" secondItem="08M-00-8P1" secondAttribute="bottom" constant="40" id="gN4-Il-Pq7"/>
+                            <constraint firstItem="zYM-Yg-qWB" firstAttribute="top" secondItem="jLH-rc-el0" secondAttribute="bottom" constant="19" id="gpI-m1-J2w"/>
+                            <constraint firstItem="sAR-PP-ACl" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hJV-RB-LQ6"/>
+                            <constraint firstItem="xeq-Np-0fr" firstAttribute="leading" secondItem="z8x-Hu-tmF" secondAttribute="trailing" constant="20" id="iAk-Gj-znQ"/>
+                            <constraint firstItem="08M-00-8P1" firstAttribute="top" secondItem="fhh-gb-FgX" secondAttribute="bottom" constant="50" id="kfZ-o4-O1P"/>
+                            <constraint firstItem="0qb-Jk-Tno" firstAttribute="leading" secondItem="6uN-uL-fUM" secondAttribute="trailing" constant="20" id="lo0-p7-rap"/>
+                            <constraint firstItem="6uN-uL-fUM" firstAttribute="top" secondItem="jbg-Ic-XD2" secondAttribute="bottom" constant="48" id="oqz-JS-lqO"/>
+                            <constraint firstItem="pIy-V4-I74" firstAttribute="top" secondItem="UA6-K9-gEu" secondAttribute="bottom" constant="13" id="r30-f9-cpL"/>
+                            <constraint firstItem="mOp-wf-DSz" firstAttribute="top" secondItem="kNi-m3-fqd" secondAttribute="bottom" constant="10" id="s68-DF-iQs"/>
+                            <constraint firstItem="kNi-m3-fqd" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="tBX-Oe-nvx"/>
+                            <constraint firstItem="pIy-V4-I74" firstAttribute="leading" secondItem="mOp-wf-DSz" secondAttribute="trailing" constant="20" id="v4E-Sr-mHT"/>
+                            <constraint firstItem="UVe-DV-dUD" firstAttribute="top" secondItem="mOp-wf-DSz" secondAttribute="bottom" constant="10" id="wvN-cY-re2"/>
+                            <constraint firstItem="EAT-o5-RqJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="zbC-YU-QH0"/>
+                            <constraint firstItem="Qb8-Fe-rEz" firstAttribute="top" secondItem="0qb-Jk-Tno" secondAttribute="bottom" constant="13" id="zy8-Px-Uje"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="NC6-Qg-JXa" kind="showDetail" identifier="toCountdown" id="gRM-iV-T7l"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="qEu-2c-9si" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.18140929535232"/>
+        </scene>
+        <!--CountDownViewController-->
+        <scene sceneID="qES-z5-sv6">
+            <objects>
+                <viewController id="NC6-Qg-JXa" userLabel="CountDownViewController" customClass="CountDownViewController" customModule="SmashUpRandomizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="al5-M1-cLV"/>
+                        <viewControllerLayoutGuide type="bottom" id="FU1-0h-lkC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YlQ-Jx-oqa">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SilverCountdownBG" translatesAutoresizingMaskIntoConstraints="NO" id="ZUY-x0-Xem">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="countdownContainer" translatesAutoresizingMaskIntoConstraints="NO" id="N3d-Kf-L89">
+                                <rect key="frame" x="112" y="247" width="150" height="173"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="ER6-ON-irQ"/>
+                                    <constraint firstAttribute="height" constant="173" id="vZw-g0-JMZ"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fna-4X-STT">
+                                <rect key="frame" x="147" y="303" width="80" height="61"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="61" id="4g7-9D-hpr"/>
+                                    <constraint firstAttribute="width" constant="80" id="gFk-je-4R2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="64"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Fna-4X-STT" firstAttribute="centerY" secondItem="YlQ-Jx-oqa" secondAttribute="centerY" id="4vU-LN-raE"/>
+                            <constraint firstItem="ZUY-x0-Xem" firstAttribute="leading" secondItem="YlQ-Jx-oqa" secondAttribute="leading" id="9Nq-Np-8Zu"/>
+                            <constraint firstItem="N3d-Kf-L89" firstAttribute="centerX" secondItem="YlQ-Jx-oqa" secondAttribute="centerX" id="APM-J5-J6C"/>
+                            <constraint firstItem="ZUY-x0-Xem" firstAttribute="top" secondItem="YlQ-Jx-oqa" secondAttribute="top" id="BaC-95-5s4"/>
+                            <constraint firstItem="FU1-0h-lkC" firstAttribute="top" secondItem="ZUY-x0-Xem" secondAttribute="bottom" id="Ej7-IK-b7P"/>
+                            <constraint firstAttribute="trailing" secondItem="ZUY-x0-Xem" secondAttribute="trailing" id="Tbl-If-YSV"/>
+                            <constraint firstItem="N3d-Kf-L89" firstAttribute="centerY" secondItem="YlQ-Jx-oqa" secondAttribute="centerY" id="phU-vD-Ld4"/>
+                            <constraint firstItem="Fna-4X-STT" firstAttribute="centerX" secondItem="YlQ-Jx-oqa" secondAttribute="centerX" id="r9V-Pt-vYL"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="countdownLabel" destination="Fna-4X-STT" id="HSD-5g-tBJ"/>
+                        <segue destination="LFd-dx-kfr" kind="showDetail" identifier="factionRandomizedSegue" id="Hbb-Tl-j7K"/>
+                        <segue destination="GJi-nK-J11" kind="showDetail" identifier="factionAssignedSegue" id="76p-6E-ZTn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="e6F-4G-drP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1384.8" y="136.28185907046478"/>
+        </scene>
+        <!--FactionRandomizedViewController-->
+        <scene sceneID="O2V-nD-opQ">
+            <objects>
+                <viewController id="LFd-dx-kfr" userLabel="FactionRandomizedViewController" customClass="FactionRandomizedViewController" customModule="SmashUpRandomizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Zo2-nJ-Lui"/>
+                        <viewControllerLayoutGuide type="bottom" id="Xs2-eB-8MU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TSd-tk-FCj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mask copy" translatesAutoresizingMaskIntoConstraints="NO" id="6JD-lB-NEk">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zkd-5N-tVK">
+                                <rect key="frame" x="72" y="30" width="230" height="89"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="230" id="Z4V-ud-gFC"/>
+                                    <constraint firstAttribute="height" constant="89" id="bfQ-90-6Ta"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment content="Factions Chosen">
+                                        <attributes>
+                                            <font key="NSFont" size="36" name="SpaceAge"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="60" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="S4d-za-BTh">
+                                <rect key="frame" x="0.0" y="129" width="375" height="428"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexColor" red="0.36470588235294116" green="0.37254901960784315" blue="0.53725490196078429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="factionChosenCell" id="mOV-Gl-h2l" customClass="factionChosenTableViewCell" customModule="SmashUpRandomizer" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="60"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mOV-Gl-h2l" id="ccr-dg-3nF">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 3" translatesAutoresizingMaskIntoConstraints="NO" id="3Kb-bG-yoO">
+                                                    <rect key="frame" x="8" y="10" width="40" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="Agk-Hz-GpY"/>
+                                                        <constraint firstAttribute="width" constant="40" id="sTe-bc-ND2"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Miskatonic University" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63f-9N-r2J">
+                                                    <rect key="frame" x="56" y="9.5" width="130" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="6xu-rq-Fos"/>
+                                                        <constraint firstAttribute="width" constant="130" id="wAl-Nw-VOg"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dinosaurs" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gxD-cQ-RLa">
+                                                    <rect key="frame" x="242" y="9.5" width="130" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="D9H-OU-qNE"/>
+                                                        <constraint firstAttribute="width" constant="130" id="ulC-l3-dM1"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="12"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 3" translatesAutoresizingMaskIntoConstraints="NO" id="Zvm-Sh-a3r">
+                                                    <rect key="frame" x="194" y="10" width="40" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="9nt-NR-DK0"/>
+                                                        <constraint firstAttribute="width" constant="40" id="KGB-cB-okp"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="3Kb-bG-yoO" firstAttribute="centerY" secondItem="ccr-dg-3nF" secondAttribute="centerY" id="3oG-4d-Elo"/>
+                                                <constraint firstItem="63f-9N-r2J" firstAttribute="leading" secondItem="3Kb-bG-yoO" secondAttribute="trailing" constant="8" id="4Xy-Xd-Boe"/>
+                                                <constraint firstItem="63f-9N-r2J" firstAttribute="centerY" secondItem="ccr-dg-3nF" secondAttribute="centerY" id="7Hg-tV-oKG"/>
+                                                <constraint firstItem="gxD-cQ-RLa" firstAttribute="leading" secondItem="Zvm-Sh-a3r" secondAttribute="trailing" constant="8" id="ZLO-Sb-nyI"/>
+                                                <constraint firstItem="Zvm-Sh-a3r" firstAttribute="centerY" secondItem="ccr-dg-3nF" secondAttribute="centerY" id="aaA-TJ-MvE"/>
+                                                <constraint firstItem="Zvm-Sh-a3r" firstAttribute="leading" secondItem="63f-9N-r2J" secondAttribute="trailing" constant="8" id="bhR-OY-PEu"/>
+                                                <constraint firstItem="3Kb-bG-yoO" firstAttribute="leading" secondItem="ccr-dg-3nF" secondAttribute="leading" constant="8" id="fJo-vz-BXy"/>
+                                                <constraint firstItem="gxD-cQ-RLa" firstAttribute="centerY" secondItem="ccr-dg-3nF" secondAttribute="centerY" id="oqV-Xb-jEe"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="factionImage1" destination="3Kb-bG-yoO" id="kBP-oZ-U5j"/>
+                                            <outlet property="factionImage2" destination="Zvm-Sh-a3r" id="qJv-jq-hbl"/>
+                                            <outlet property="factionLabel1" destination="63f-9N-r2J" id="UEz-LL-Ofc"/>
+                                            <outlet property="factionLabel2" destination="gxD-cQ-RLa" id="VG0-iG-tyz"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="LFd-dx-kfr" id="iwx-M6-gUF"/>
+                                    <outlet property="delegate" destination="LFd-dx-kfr" id="84F-7h-m2V"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kdH-h4-8lz">
+                                <rect key="frame" x="62" y="562" width="250" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="cZ3-3M-vfv"/>
+                                    <constraint firstAttribute="width" constant="250" id="qOR-2H-Vfr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="14"/>
+                                <state key="normal" title="Re-Choose Factions" backgroundImage="RandomizeRectangle">
+                                    <color key="titleColor" red="0.36470588235294116" green="0.37254901960784315" blue="0.53725490196078429" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="rechooseFactionBtn:" destination="LFd-dx-kfr" eventType="touchUpInside" id="A8e-6G-owL"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UV5-Lf-aDc">
+                                <rect key="frame" x="62" y="614" width="250" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="lUy-dA-ti4"/>
+                                    <constraint firstAttribute="height" constant="44" id="uoz-fL-iEL"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="14"/>
+                                <state key="normal" title="Back To Player Choice" backgroundImage="BackToPLayerRectangle">
+                                    <color key="titleColor" red="0.59215686274509804" green="0.59215686274509804" blue="0.59215686274509804" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="back2HomeBtn:" destination="LFd-dx-kfr" eventType="touchUpInside" id="Clf-Kb-2Sn"/>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" identifier="randomizedToHome" id="dao-vd-dJv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="6JD-lB-NEk" firstAttribute="leading" secondItem="TSd-tk-FCj" secondAttribute="leading" id="0jP-00-yi8"/>
+                            <constraint firstItem="kdH-h4-8lz" firstAttribute="top" secondItem="S4d-za-BTh" secondAttribute="bottom" constant="5" id="6yx-fV-AYC"/>
+                            <constraint firstItem="UV5-Lf-aDc" firstAttribute="top" secondItem="kdH-h4-8lz" secondAttribute="bottom" constant="8" id="7a9-nn-KVb"/>
+                            <constraint firstItem="6JD-lB-NEk" firstAttribute="top" secondItem="TSd-tk-FCj" secondAttribute="top" id="ArV-dX-JYF"/>
+                            <constraint firstItem="Xs2-eB-8MU" firstAttribute="top" secondItem="6JD-lB-NEk" secondAttribute="bottom" id="EtO-Sw-VRS"/>
+                            <constraint firstAttribute="trailing" secondItem="S4d-za-BTh" secondAttribute="trailing" id="X7A-6q-nbM"/>
+                            <constraint firstItem="UV5-Lf-aDc" firstAttribute="centerX" secondItem="TSd-tk-FCj" secondAttribute="centerX" id="Zqf-mn-tFV"/>
+                            <constraint firstItem="Xs2-eB-8MU" firstAttribute="top" secondItem="S4d-za-BTh" secondAttribute="bottom" constant="110" id="auC-ON-1Cb"/>
+                            <constraint firstItem="S4d-za-BTh" firstAttribute="centerX" secondItem="TSd-tk-FCj" secondAttribute="centerX" id="bNQ-y5-Teo"/>
+                            <constraint firstItem="S4d-za-BTh" firstAttribute="leading" secondItem="TSd-tk-FCj" secondAttribute="leading" id="dnQ-Tb-tXq"/>
+                            <constraint firstAttribute="trailing" secondItem="6JD-lB-NEk" secondAttribute="trailing" id="eZb-y0-HuB"/>
+                            <constraint firstItem="Zkd-5N-tVK" firstAttribute="top" secondItem="Zo2-nJ-Lui" secondAttribute="bottom" constant="10" id="frp-h6-IS5"/>
+                            <constraint firstItem="S4d-za-BTh" firstAttribute="top" secondItem="Zkd-5N-tVK" secondAttribute="bottom" constant="10" id="iui-Gi-AEZ"/>
+                            <constraint firstItem="Zkd-5N-tVK" firstAttribute="centerX" secondItem="TSd-tk-FCj" secondAttribute="centerX" id="u9S-fv-vA9"/>
+                            <constraint firstItem="kdH-h4-8lz" firstAttribute="centerX" secondItem="TSd-tk-FCj" secondAttribute="centerX" id="w5z-FQ-QZv"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5Uo-fH-8dg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2668" y="-453.82308845577217"/>
+        </scene>
+        <!--FactionAssignedViewController-->
+        <scene sceneID="48P-GY-S42">
+            <objects>
+                <viewController id="GJi-nK-J11" userLabel="FactionAssignedViewController" customClass="FactionAssignedViewController" customModule="SmashUpRandomizer" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="94j-6s-kM6"/>
+                        <viewControllerLayoutGuide type="bottom" id="Z0V-ha-IPx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="WTA-Tn-7DW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mask copy" translatesAutoresizingMaskIntoConstraints="NO" id="zLH-Q1-CeM">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="120" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xHu-C8-R5E">
+                                <rect key="frame" x="0.0" y="28" width="375" height="489"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="factionAssignedCell" id="w8N-WN-Ciq" customClass="factionAssignedTableViewCell" customModule="SmashUpRandomizer" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="120"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="w8N-WN-Ciq" id="JvH-Zb-zNw">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="120"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Emma" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJQ-td-qXY">
+                                                    <rect key="frame" x="20" y="10" width="144" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="21" id="75q-Na-IEI"/>
+                                                        <constraint firstAttribute="width" constant="144" id="uLh-qg-Gzv"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="18"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dinosaurs" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tXI-R2-Eb1">
+                                                    <rect key="frame" x="45" y="30" width="130" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="7Bg-Sk-Y8u"/>
+                                                        <constraint firstAttribute="width" constant="130" id="Jn6-dE-YTB"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="12"/>
+                                                    <color key="textColor" red="0.27450980392156865" green="0.27058823529411763" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 3" translatesAutoresizingMaskIntoConstraints="NO" id="d7q-ly-J1I">
+                                                    <rect key="frame" x="20" y="41" width="20" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="20" id="KoD-Aj-a2w"/>
+                                                        <constraint firstAttribute="width" constant="20" id="ua0-m4-Dle"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Dinosaurs" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d8J-F8-fQj">
+                                                    <rect key="frame" x="45" y="78" width="130" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="130" id="fUD-Vx-6ZG"/>
+                                                        <constraint firstAttribute="height" constant="40" id="sE8-co-RI0"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="12"/>
+                                                    <color key="textColor" red="0.27450980392156865" green="0.27058823529411763" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Rectangle 3" translatesAutoresizingMaskIntoConstraints="NO" id="p7M-l3-hF7">
+                                                    <rect key="frame" x="20" y="88" width="20" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="20" id="Skk-Zc-Uem"/>
+                                                        <constraint firstAttribute="height" constant="20" id="fv5-jY-FVL"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kPa-3L-OAp">
+                                                    <rect key="frame" x="209" y="10" width="144" height="21"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="144" id="RQa-mc-ng6"/>
+                                                        <constraint firstAttribute="height" constant="21" id="o8F-M3-ymP"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="18"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6gC-8L-E9e">
+                                                    <rect key="frame" x="234" y="30" width="130" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="40" id="Bdk-9z-zgG"/>
+                                                        <constraint firstAttribute="width" constant="130" id="RO5-My-b6h"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="12"/>
+                                                    <color key="textColor" red="0.27450980392156865" green="0.27058823529411763" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="bud-Fg-MCF">
+                                                    <rect key="frame" x="209" y="41" width="20" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="20" id="La9-98-xPx"/>
+                                                        <constraint firstAttribute="height" constant="20" id="evY-Rq-Wf8"/>
+                                                    </constraints>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VBe-VU-zVG">
+                                                    <rect key="frame" x="234" y="78" width="130" height="40"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="130" id="2kt-Yh-Ir1"/>
+                                                        <constraint firstAttribute="height" constant="40" id="GsD-yM-AXV"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="12"/>
+                                                    <color key="textColor" red="0.27450980392156865" green="0.27058823529411763" blue="0.27058823529411763" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3eB-JW-L2K">
+                                                    <rect key="frame" x="209" y="88" width="20" height="20"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="20" id="Isc-TA-BdU"/>
+                                                        <constraint firstAttribute="height" constant="20" id="UMx-bP-K3x"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="p7M-l3-hF7" firstAttribute="top" secondItem="d7q-ly-J1I" secondAttribute="bottom" constant="27" id="5Sd-cP-FrL"/>
+                                                <constraint firstItem="VBe-VU-zVG" firstAttribute="top" secondItem="6gC-8L-E9e" secondAttribute="bottom" constant="8" id="BKB-7D-PXI"/>
+                                                <constraint firstItem="3eB-JW-L2K" firstAttribute="leading" secondItem="bud-Fg-MCF" secondAttribute="trailing" constant="-20" id="BS1-XC-7tc"/>
+                                                <constraint firstItem="d8J-F8-fQj" firstAttribute="top" secondItem="tXI-R2-Eb1" secondAttribute="bottom" constant="8" id="GDX-fm-CVo"/>
+                                                <constraint firstItem="3eB-JW-L2K" firstAttribute="top" secondItem="bud-Fg-MCF" secondAttribute="bottom" constant="27" id="GKK-0R-1iP"/>
+                                                <constraint firstItem="6gC-8L-E9e" firstAttribute="leading" secondItem="bud-Fg-MCF" secondAttribute="trailing" constant="5" id="IOi-50-aGh"/>
+                                                <constraint firstItem="lJQ-td-qXY" firstAttribute="leading" secondItem="JvH-Zb-zNw" secondAttribute="leading" constant="20" id="PcV-KX-1zz"/>
+                                                <constraint firstItem="lJQ-td-qXY" firstAttribute="leading" secondItem="d7q-ly-J1I" secondAttribute="trailing" constant="-20" id="QZl-yM-o7R"/>
+                                                <constraint firstItem="lJQ-td-qXY" firstAttribute="top" secondItem="JvH-Zb-zNw" secondAttribute="top" constant="10" id="T6T-ab-KZF"/>
+                                                <constraint firstItem="p7M-l3-hF7" firstAttribute="leading" secondItem="d7q-ly-J1I" secondAttribute="trailing" constant="-20" id="TYx-IA-E3H"/>
+                                                <constraint firstItem="tXI-R2-Eb1" firstAttribute="top" secondItem="lJQ-td-qXY" secondAttribute="bottom" constant="-1" id="Trb-id-yyd"/>
+                                                <constraint firstItem="d7q-ly-J1I" firstAttribute="top" secondItem="lJQ-td-qXY" secondAttribute="bottom" constant="10" id="Uue-XZ-k2L"/>
+                                                <constraint firstItem="d8J-F8-fQj" firstAttribute="leading" secondItem="p7M-l3-hF7" secondAttribute="trailing" constant="5" id="YmL-ho-feg"/>
+                                                <constraint firstItem="kPa-3L-OAp" firstAttribute="leading" secondItem="lJQ-td-qXY" secondAttribute="trailing" constant="45" id="bYv-oU-l14"/>
+                                                <constraint firstItem="kPa-3L-OAp" firstAttribute="top" secondItem="JvH-Zb-zNw" secondAttribute="top" constant="10" id="deK-a4-fSf"/>
+                                                <constraint firstItem="bud-Fg-MCF" firstAttribute="top" secondItem="kPa-3L-OAp" secondAttribute="bottom" constant="10" id="nAd-mP-4Hk"/>
+                                                <constraint firstItem="VBe-VU-zVG" firstAttribute="leading" secondItem="3eB-JW-L2K" secondAttribute="trailing" constant="5" id="svO-fw-5OM"/>
+                                                <constraint firstItem="6gC-8L-E9e" firstAttribute="top" secondItem="kPa-3L-OAp" secondAttribute="bottom" constant="-1" id="tjT-35-Bwd"/>
+                                                <constraint firstItem="tXI-R2-Eb1" firstAttribute="leading" secondItem="d7q-ly-J1I" secondAttribute="trailing" constant="5" id="uf4-Dd-LYa"/>
+                                                <constraint firstItem="kPa-3L-OAp" firstAttribute="leading" secondItem="bud-Fg-MCF" secondAttribute="trailing" constant="-20" id="ymz-6a-wOE"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        <connections>
+                                            <outlet property="player1" destination="lJQ-td-qXY" id="HZn-QE-W3v"/>
+                                            <outlet property="player1Faction1" destination="tXI-R2-Eb1" id="fAG-TT-sLp"/>
+                                            <outlet property="player1Faction2" destination="d8J-F8-fQj" id="acY-l5-Gyg"/>
+                                            <outlet property="player1FactionImage1" destination="d7q-ly-J1I" id="jks-Ck-Vvn"/>
+                                            <outlet property="player1FactionImage2" destination="p7M-l3-hF7" id="gVn-Q9-CzA"/>
+                                            <outlet property="player2" destination="kPa-3L-OAp" id="Mq7-Vw-5eQ"/>
+                                            <outlet property="player2Faction1" destination="6gC-8L-E9e" id="159-aH-yms"/>
+                                            <outlet property="player2Faction2" destination="VBe-VU-zVG" id="py5-tK-6bS"/>
+                                            <outlet property="player2FactionImage1" destination="bud-Fg-MCF" id="aVR-B0-3Gs"/>
+                                            <outlet property="player2FactionImage2" destination="3eB-JW-L2K" id="lAL-tT-9sK"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="GJi-nK-J11" id="G5d-N4-M1I"/>
+                                    <outlet property="delegate" destination="GJi-nK-J11" id="8fj-ev-noV"/>
+                                </connections>
+                            </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kmV-lA-aEA">
+                                <rect key="frame" x="62" y="546" width="250" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="4Zk-pl-tLA"/>
+                                    <constraint firstAttribute="width" constant="250" id="yst-FB-O4a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="14"/>
+                                <state key="normal" title="Re-Choose Factions" backgroundImage="RandomizeRectangle">
+                                    <color key="titleColor" red="0.36470588240000001" green="0.37254901959999998" blue="0.53725490200000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="rechooseFactionBtn:" destination="GJi-nK-J11" eventType="touchUpInside" id="EMU-TC-Z16"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmP-oZ-qCq">
+                                <rect key="frame" x="62" y="605" width="250" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="250" id="Go2-sO-y3S"/>
+                                    <constraint firstAttribute="height" constant="44" id="KMO-AN-etH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SpaceAge" family="Space Age" pointSize="14"/>
+                                <state key="normal" title="Back To Player Choice" backgroundImage="BackToPLayerRectangle">
+                                    <color key="titleColor" red="0.59215686270000001" green="0.59215686270000001" blue="0.59215686270000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="back2HomeBtn:" destination="GJi-nK-J11" eventType="touchUpInside" id="DYM-yR-T1V"/>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" identifier="assignedToHome" id="bpc-A6-Dsh"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Z0V-ha-IPx" firstAttribute="top" secondItem="xHu-C8-R5E" secondAttribute="bottom" constant="150" id="3QE-Uh-z7c"/>
+                            <constraint firstAttribute="trailing" secondItem="zLH-Q1-CeM" secondAttribute="trailing" id="7rh-O9-UKV"/>
+                            <constraint firstItem="xHu-C8-R5E" firstAttribute="top" secondItem="94j-6s-kM6" secondAttribute="bottom" constant="8" id="DA1-XR-nLB"/>
+                            <constraint firstItem="cmP-oZ-qCq" firstAttribute="centerX" secondItem="WTA-Tn-7DW" secondAttribute="centerX" id="Neq-C6-zDa"/>
+                            <constraint firstItem="zLH-Q1-CeM" firstAttribute="leading" secondItem="WTA-Tn-7DW" secondAttribute="leading" id="PYS-el-gsz"/>
+                            <constraint firstItem="zLH-Q1-CeM" firstAttribute="top" secondItem="WTA-Tn-7DW" secondAttribute="top" id="WnC-ne-WQW"/>
+                            <constraint firstItem="kmV-lA-aEA" firstAttribute="centerX" secondItem="WTA-Tn-7DW" secondAttribute="centerX" id="anS-Dr-hvI"/>
+                            <constraint firstItem="cmP-oZ-qCq" firstAttribute="top" secondItem="kmV-lA-aEA" secondAttribute="bottom" constant="15" id="clR-94-YSk"/>
+                            <constraint firstItem="Z0V-ha-IPx" firstAttribute="top" secondItem="zLH-Q1-CeM" secondAttribute="bottom" id="fbA-b5-ZDd"/>
+                            <constraint firstItem="xHu-C8-R5E" firstAttribute="leading" secondItem="WTA-Tn-7DW" secondAttribute="leading" id="lm1-o3-487"/>
+                            <constraint firstItem="kmV-lA-aEA" firstAttribute="top" secondItem="xHu-C8-R5E" secondAttribute="bottom" constant="29" id="o0Q-d1-0S9"/>
+                            <constraint firstAttribute="trailing" secondItem="xHu-C8-R5E" secondAttribute="trailing" id="tdH-CP-OTg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="tableView" destination="xHu-C8-R5E" id="fVp-g3-8LF"/>
+                        <segue destination="qEu-2c-9si" kind="unwind" identifier="unwindSegueToVC1" unwindAction="unwindToVC1WithSegue:" id="aGY-yP-Wbs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Nh-4g-bTq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2668" y="649"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BackToPLayerRectangle" width="250" height="44"/>
+        <image name="RandomizeRectangle" width="213" height="44"/>
+        <image name="Rectangle 3" width="40" height="40"/>
+        <image name="SilverCountdownBG" width="375" height="667"/>
+        <image name="countdownContainer" width="156" height="181"/>
+        <image name="lightcoloredBG" width="375" height="667"/>
+        <image name="mask copy" width="375" height="667"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="bpc-A6-Dsh"/>
+    </inferredMetricsTieBreakers>
+</document>
